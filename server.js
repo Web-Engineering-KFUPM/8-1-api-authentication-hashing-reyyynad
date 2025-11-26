@@ -238,7 +238,7 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
 const app = express();
-const PORT = 3000;
+const PORT = 4000;
 const JWT_SECRET = "abc123";
 
 app.use(express.json());
